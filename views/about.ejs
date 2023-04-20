@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- * Bootstap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- * FontAwsome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- * Custom CSS LINK  -->
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <!-- * Custom CSS LINK  -->
+    <link rel="stylesheet" href="./CSS/ejsStyle.css">
+
+    <title>
+        <%- title %>
+    </title>
+
+</head>
+
+<body>
+    <!-- - Including navbar file from components folder -->
+    <%- include('./components/navbar') -%>
+
+       <div class="container">
+        <h1 class="text-center fw-bolder mt-4">About</h1>
+  <div class="row mt-4 mb-4">
+    <div class="col-9">  
+      <h3 class="fw-bolder ">Profile</h3> </div>
+    <div class="col-4"> 
+  
+      
+      <h3>Rahul Narendra Gangurde</h3><br>I have done MERN Stack web development. I am skilled in HTML, CSS, Bootstrap, JavaScript, NodeJS, Express, MongoDB, Postman, Git, GitHub and React JS.</div>
+    <div class="col-6"><h3>Links</h3><br>
+      <ul class="info-list">
+        <li>
+          <strong>Full Name:</strong>
+          <span>Rahul Narendra Gangurde</span>
+        </li>
+        <li>
+          <strong>Birth Date:</strong>
+          <span>November 16th, 1998</span>
+        </li>
+        <li>
+          <strong>GitHub:</strong>
+          <span><a href="#">https://github.com/RahulGangurde1698</a></span>
+        </li>
+        <li>
+          <strong>Email:</strong>
+          <span>gangurderahul26@gmail.com</span>
+        </li>
+
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+
+
+        <!-- Footer -->
+        <footer class="text-dark text-center ">
+        
+            <div class="container p-4">
+             
+              
+              
+              <section >
+                <form action="">
+        
+                  <div class="row d-flex justify-content-center border border-dark">
+        
+                    <div class="col-auto mt-4">
+                      <p class="pt-2">
+                        <strong>Sign up for our newsletter</strong>
+                      </p>
+                    </div>
+                    
+          
+                    
+                    <div class="col-md-5 col-12 mt-4">
+          
+                      <div class="form-outline form-white mb-4">
+                        <input type="email" id="form5Example21" class="form-control" />
+                        <label class="form-label" for="form5Example21">Email address</label>
+                      </div>
+                    </div>
+                   
+                    <div class="col-auto mt-4">
+                  
+                      <button type="submit" class="btn btn-outline-light mb-4">
+                        Subscribe
+                      </button>
+                    </div>
+                  
+                  </div>
+        
+                </form>
+              </section>
+             
+              <section class="mb-4">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+                  repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+                  eum harum corrupti dicta, aliquam sequi voluptate quas.
+                </p>
+              </section>
+            
+              <section class="">
+        
+                <div class="row">
+                  
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Solutions</h5>
+          
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#!" class="text-white">Car Loan</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-white">Personal Loan</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-white">Home Loan</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-white">Business Loan</a>
+                      </li>
+                    </ul>
+                  </div>
+                 
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">EXPLORE</h5>
+          
+                    <ul class="list-unstyled mb-0">
+                    <li><a class="text-white" href="#">Investor Relations</a></li>
+                          <li><a class="text-white" href="#">Safe Banking</a></li>
+                          <li><a class="text-white" href="#">Internet Banking</a></li>
+                          <li><a class="text-white" href="#">Mobile Banking</a></li>
+                          <li><a class="text-white" href="#">Another one</a></li>
+                          <li><a class="text-white" href="#">Last time</a></li>
+                    </ul>
+                  </div>
+               
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Services</h5>
+          
+                    <ul class="list-unstyled mb-0">
+                    <li><a class="text-white" href="#">Savings Accounts</a></li>
+                          <li><a class="text-white" href="#">Senior Citizen Account</a></li>
+                          <li><a class="text-white" href="#">Personal Loan</a></li>
+                          <li><a class="text-white" href="#">Fixed Deposit</a></li>
+                    </ul>
+                  </div>
+                  
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">About</h5>
+          
+                    <ul class="list-unstyled mb-0">
+                          <li><a class="text-white" href="#">Team</a></li>
+                          <li><a class="text-white" href="#">Locations</a></li>
+                          <li><a class="text-white" href="#">Privacy</a></li>
+                          <li><a class="text-white" href="#">Terms</a></li>
+                    </ul>
+                  </div>
+          
+                </div>
+              </section>
+              
+            </div>
+            
+          
+          
+            <div class="text-center p-3" >
+              © 2023 Copyright:
+              <a class="text-white" href="#">SparkFoundation.com</a>
+            </div>
+          
+          </footer>
+         
+
+
+
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+            crossorigin="anonymous"></script>
+
+        <script>
+            let alert = document.getElementById('addMsg');
+            setTimeout(() => {
+                alert.style.visibility = "hidden"
+            }, 2000)
+        </script>
+</body>
+
+</html>
